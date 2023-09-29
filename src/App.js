@@ -1,9 +1,17 @@
-import './App.css';
+import "./App.css";
+import React, { useState } from "react";
+import TopBar from "./Components/TopBar";
+import StoreListing from "./Components/StoreListing";
+import Background from "./Components/Background";
+//import Nav from 'react-bootstrap/Nav'
+//import Container from 'react-bootstrap/Container'
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <TopBar />
+      <Background />
+      <StoreListing />
     </div>
   );
 }
