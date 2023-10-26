@@ -1,4 +1,5 @@
 import Card from "react-bootstrap/Card";
+import { alignPropType } from "react-bootstrap/esm/types";
 import Form from "react-bootstrap/Form";
 
 function Background() {
@@ -39,7 +40,7 @@ function Background() {
                 <Form.Control
                   size="lg"
                   type="text"
-                  placeholder="   Enter your address                                         ->"
+                  placeholder=" Enter your address ->"
                 />
               </Form.Group>
             </Form>

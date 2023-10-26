@@ -1,10 +1,8 @@
 import "./App.css";
 import React, { useState } from "react";
-import TopBar from "./Components/TopBar";
-import StoreListing from "./Components/StoreListing";
-import Background from "./Components/Background";
-//import Nav from 'react-bootstrap/Nav'
-//import Container from 'react-bootstrap/Container'
+import TopBar from "./components/TopBar";
+import StoreListing from "./components/StoreListings";
+import Background from "./components/Background";
 
 function App() {
   return (
